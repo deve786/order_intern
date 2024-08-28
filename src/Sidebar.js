@@ -9,7 +9,7 @@ function Sidebar() {
                     <img src="./img.jpeg" className='w-10  rounded-md' alt="" />
                     <p className='font-semibold'>John Doe</p>
                 </div>
-                <ul className='flex justify-between gap-5 flex-col'>
+                <ul className='flex justify-between gap-5 flex-col mt-5'>
                     <div className='flex gap-5 flex-col'>
                         <Link to={"general"}><div className='flex items-center gap-2'><i class="fa-solid fa-border-none"></i><li className='cursor-pointer '>General</li></div></Link>
                         <Link to={'password'}><div  className='flex items-center gap-2' ><li class="fa-solid fa-lock"></li><li>Password</li></div></Link>
